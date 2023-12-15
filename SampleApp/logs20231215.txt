@@ -1188,3 +1188,581 @@ FROM [Customers] AS [c]
 2023-12-15 22:46:40.295 +03:00 [INF] Executed action SampleApp.Controllers.CustomerController.Index (SampleApp) in 6.8777ms
 2023-12-15 22:46:40.297 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
 2023-12-15 22:46:40.300 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Customer - - - 200 - text/html;+charset=utf-8 18.4602ms
+2023-12-15 23:12:04.856 +03:00 [INF] Starting Web Host
+2023-12-15 23:12:05.858 +03:00 [INF] User profile is available. Using 'C:\Users\ufuki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-15 23:12:06.035 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-15 23:12:06.036 +03:00 [INF] Hosting environment: Development
+2023-12-15 23:12:06.048 +03:00 [INF] Content root path: C:\Users\ufuki\SampleApp\SampleApp
+2023-12-15 23:12:06.071 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/ - -
+2023-12-15 23:12:06.098 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:12:06.131 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.HomeController (SampleApp).
+2023-12-15 23:12:06.149 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:12:06.260 +03:00 [INF] Executed ViewResult - view Index executed in 114.2865ms.
+2023-12-15 23:12:06.263 +03:00 [INF] Executed action SampleApp.Controllers.HomeController.Index (SampleApp) in 129.954ms
+2023-12-15 23:12:06.265 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:12:06.273 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/ - - - 200 - text/html;+charset=utf-8 203.6482ms
+2023-12-15 23:12:06.285 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-15 23:12:06.287 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/css/site.css - -
+2023-12-15 23:12:06.288 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/jquery/dist/jquery.min.js - -
+2023-12-15 23:12:06.290 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-15 23:12:06.296 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-12-15 23:12:06.302 +03:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-12-15 23:12:06.302 +03:00 [INF] The file /css/site.css was not modified
+2023-12-15 23:12:06.302 +03:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2023-12-15 23:12:06.302 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-12-15 23:12:06.302 +03:00 [INF] The file /js/site.js was not modified
+2023-12-15 23:12:06.311 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/css/site.css - - - 304 - text/css 23.7453ms
+2023-12-15 23:12:06.311 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 20.4865ms
+2023-12-15 23:12:06.311 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 23.4720ms
+2023-12-15 23:12:06.311 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 25.9322ms
+2023-12-15 23:12:06.311 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 14.5621ms
+2023-12-15 23:13:03.050 +03:00 [INF] Starting Web Host
+2023-12-15 23:13:03.964 +03:00 [INF] User profile is available. Using 'C:\Users\ufuki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-15 23:13:04.191 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-15 23:13:04.193 +03:00 [INF] Hosting environment: Development
+2023-12-15 23:13:04.195 +03:00 [INF] Content root path: C:\Users\ufuki\SampleApp\SampleApp
+2023-12-15 23:13:04.219 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/ - -
+2023-12-15 23:13:04.247 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:13:04.281 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.HomeController (SampleApp).
+2023-12-15 23:13:04.298 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:13:04.411 +03:00 [INF] Executed ViewResult - view Index executed in 115.7531ms.
+2023-12-15 23:13:04.414 +03:00 [INF] Executed action SampleApp.Controllers.HomeController.Index (SampleApp) in 130.4006ms
+2023-12-15 23:13:04.417 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:13:04.424 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/ - - - 200 - text/html;+charset=utf-8 206.9771ms
+2023-12-15 23:13:06.191 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Customer - -
+2023-12-15 23:13:06.195 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:13:06.198 +03:00 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.CustomerController (SampleApp).
+2023-12-15 23:13:06.674 +03:00 [WRN] No type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2023-12-15 23:13:06.744 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:13:07.982 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[City], [c].[Name]
+FROM [Customers] AS [c]
+2023-12-15 23:13:08.039 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:13:08.060 +03:00 [INF] Executed ViewResult - view Index executed in 21.5021ms.
+2023-12-15 23:13:08.064 +03:00 [INF] Executed action SampleApp.Controllers.CustomerController.Index (SampleApp) in 1865.139ms
+2023-12-15 23:13:08.069 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:13:08.075 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Customer - - - 200 - text/html;+charset=utf-8 1883.9136ms
+2023-12-15 23:13:09.030 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Product - -
+2023-12-15 23:13:09.033 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.ProductController.Index (SampleApp)'
+2023-12-15 23:13:09.036 +03:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.ProductController (SampleApp).
+2023-12-15 23:13:09.058 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:13:09.068 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[ProductType]
+FROM [Products] AS [p]
+2023-12-15 23:13:09.082 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:13:09.097 +03:00 [INF] Executed ViewResult - view Index executed in 15.336ms.
+2023-12-15 23:13:09.100 +03:00 [INF] Executed action SampleApp.Controllers.ProductController.Index (SampleApp) in 61.8138ms
+2023-12-15 23:13:09.102 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.ProductController.Index (SampleApp)'
+2023-12-15 23:13:09.105 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Product - - - 200 - text/html;+charset=utf-8 75.3593ms
+2023-12-15 23:13:10.910 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order - -
+2023-12-15 23:13:10.912 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:13:10.915 +03:00 [INF] Route matched with {action = "Index", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:13:10.922 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:13:10.930 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice]
+FROM [Orders] AS [o]
+2023-12-15 23:13:10.934 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:13:10.941 +03:00 [INF] Executed ViewResult - view Index executed in 7.6309ms.
+2023-12-15 23:13:10.944 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 26.7215ms
+2023-12-15 23:13:10.947 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:13:10.949 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 200 - text/html;+charset=utf-8 38.8497ms
+2023-12-15 23:13:12.463 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order/Create - -
+2023-12-15 23:13:12.466 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Create (SampleApp)'
+2023-12-15 23:13:12.469 +03:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:13:12.471 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:13:12.474 +03:00 [INF] Executing ViewResult, running view Create.
+2023-12-15 23:13:12.516 +03:00 [INF] Executed ViewResult - view Create executed in 42.7495ms.
+2023-12-15 23:13:12.519 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Create (SampleApp) in 47.8933ms
+2023-12-15 23:13:12.521 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Create (SampleApp)'
+2023-12-15 23:13:12.524 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order/Create - - - 200 - text/html;+charset=utf-8 60.9295ms
+2023-12-15 23:13:12.537 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/jquery-validation/dist/jquery.validate.min.js - -
+2023-12-15 23:13:12.540 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+2023-12-15 23:13:12.546 +03:00 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+2023-12-15 23:13:12.546 +03:00 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2023-12-15 23:13:12.551 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/jquery-validation/dist/jquery.validate.min.js - - - 304 - application/javascript 13.8108ms
+2023-12-15 23:13:12.551 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 304 - application/javascript 11.5663ms
+2023-12-15 23:13:34.086 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:12575/Order/Create application/x-www-form-urlencoded 232
+2023-12-15 23:13:34.091 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Create (SampleApp)'
+2023-12-15 23:13:34.103 +03:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(DataAccess.Entities.Order) on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:13:34.108 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:13:34.227 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [ProductId], [Quantity], [TotalPrice])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-12-15 23:13:34.253 +03:00 [INF] Executing RedirectResult, redirecting to /Order.
+2023-12-15 23:13:34.255 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Create (SampleApp) in 149.1717ms
+2023-12-15 23:13:34.257 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Create (SampleApp)'
+2023-12-15 23:13:34.263 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:12575/Order/Create application/x-www-form-urlencoded 232 - 302 - - 174.3021ms
+2023-12-15 23:13:34.265 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order - -
+2023-12-15 23:13:34.270 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:13:34.272 +03:00 [INF] Route matched with {action = "Index", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:13:34.274 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:13:34.276 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice]
+FROM [Orders] AS [o]
+2023-12-15 23:13:34.278 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:13:34.282 +03:00 [INF] Executed ViewResult - view Index executed in 4.3698ms.
+2023-12-15 23:13:34.285 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 11.4062ms
+2023-12-15 23:13:34.287 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:13:34.290 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 200 - text/html;+charset=utf-8 24.1207ms
+2023-12-15 23:14:14.999 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order - -
+2023-12-15 23:14:15.001 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:14:15.005 +03:00 [INF] Route matched with {action = "Index", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:14:15.008 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:14:15.014 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:14:15.023 +03:00 [INF] Executed ViewResult - view Index executed in 10.2354ms.
+2023-12-15 23:14:15.026 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 18.683ms
+2023-12-15 23:14:15.032 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:14:15.035 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 200 - text/html;+charset=utf-8 36.2761ms
+2023-12-15 23:14:15.049 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/css/site.css - -
+2023-12-15 23:14:15.051 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-15 23:14:15.053 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-12-15 23:14:15.053 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/jquery/dist/jquery.min.js - -
+2023-12-15 23:14:15.051 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-15 23:14:15.064 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\js\site.js'
+2023-12-15 23:14:15.064 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\css\site.css'
+2023-12-15 23:14:15.074 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 21.1455ms
+2023-12-15 23:14:15.081 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/css/site.css - - - 200 1417 text/css 31.7730ms
+2023-12-15 23:14:15.108 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-12-15 23:14:15.108 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-12-15 23:14:15.108 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-12-15 23:14:15.118 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 67.1969ms
+2023-12-15 23:14:15.118 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 65.4608ms
+2023-12-15 23:14:15.118 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 67.1943ms
+2023-12-15 23:14:15.144 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/favicon.ico - -
+2023-12-15 23:14:15.148 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\favicon.ico'
+2023-12-15 23:14:15.151 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/favicon.ico - - - 200 5430 image/x-icon 6.5658ms
+2023-12-15 23:14:22.113 +03:00 [INF] Starting Web Host
+2023-12-15 23:14:23.025 +03:00 [INF] User profile is available. Using 'C:\Users\ufuki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-15 23:14:23.255 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-15 23:14:23.256 +03:00 [INF] Hosting environment: Development
+2023-12-15 23:14:23.262 +03:00 [INF] Content root path: C:\Users\ufuki\SampleApp\SampleApp
+2023-12-15 23:14:23.289 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/ - -
+2023-12-15 23:14:23.318 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:14:23.352 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.HomeController (SampleApp).
+2023-12-15 23:14:23.370 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:14:23.486 +03:00 [INF] Executed ViewResult - view Index executed in 118.7308ms.
+2023-12-15 23:14:23.490 +03:00 [INF] Executed action SampleApp.Controllers.HomeController.Index (SampleApp) in 134.8776ms
+2023-12-15 23:14:23.493 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:14:23.502 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/ - - - 200 - text/html;+charset=utf-8 214.6955ms
+2023-12-15 23:14:25.275 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order - -
+2023-12-15 23:14:25.280 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:14:25.284 +03:00 [INF] Route matched with {action = "Index", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:14:25.780 +03:00 [WRN] No type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2023-12-15 23:14:25.848 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:14:26.325 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice]
+FROM [Orders] AS [o]
+2023-12-15 23:14:26.374 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:14:26.394 +03:00 [INF] Executed ViewResult - view Index executed in 20.2273ms.
+2023-12-15 23:14:26.400 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 1113.3138ms
+2023-12-15 23:14:26.404 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:14:26.410 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 200 - text/html;+charset=utf-8 1134.5247ms
+2023-12-15 23:14:36.360 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order/Create - -
+2023-12-15 23:14:36.363 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Create (SampleApp)'
+2023-12-15 23:14:36.367 +03:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:14:36.388 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:14:36.392 +03:00 [INF] Executing ViewResult, running view Create.
+2023-12-15 23:14:36.431 +03:00 [INF] Executed ViewResult - view Create executed in 39.9354ms.
+2023-12-15 23:14:36.434 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Create (SampleApp) in 64.9984ms
+2023-12-15 23:14:36.436 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Create (SampleApp)'
+2023-12-15 23:14:36.439 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order/Create - - - 200 - text/html;+charset=utf-8 79.0778ms
+2023-12-15 23:14:46.960 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:12575/Order/Create application/x-www-form-urlencoded 232
+2023-12-15 23:14:46.963 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Create (SampleApp)'
+2023-12-15 23:14:46.979 +03:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(DataAccess.Entities.Order) on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:14:46.987 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:14:47.108 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [ProductId], [Quantity], [TotalPrice])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-12-15 23:14:47.134 +03:00 [INF] Executing RedirectResult, redirecting to /Order.
+2023-12-15 23:14:47.136 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Create (SampleApp) in 155.8854ms
+2023-12-15 23:14:47.138 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Create (SampleApp)'
+2023-12-15 23:14:47.141 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:12575/Order/Create application/x-www-form-urlencoded 232 - 302 - - 181.4227ms
+2023-12-15 23:14:47.146 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order - -
+2023-12-15 23:14:47.148 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:14:47.149 +03:00 [INF] Route matched with {action = "Index", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:14:47.151 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:14:47.155 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice]
+FROM [Orders] AS [o]
+2023-12-15 23:14:47.157 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:14:47.162 +03:00 [INF] Executed ViewResult - view Index executed in 5.7169ms.
+2023-12-15 23:14:47.165 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 13.4727ms
+2023-12-15 23:14:47.167 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:14:47.169 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 200 - text/html;+charset=utf-8 23.4184ms
+2023-12-15 23:15:35.305 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order - -
+2023-12-15 23:15:35.328 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:15:35.330 +03:00 [INF] Route matched with {action = "Index", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:15:35.332 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:16:59.783 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:16:59.792 +03:00 [INF] Executed ViewResult - view Index executed in 9.353ms.
+2023-12-15 23:16:59.797 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 84465.1577ms
+2023-12-15 23:16:59.798 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:16:59.801 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 200 - text/html;+charset=utf-8 84495.6854ms
+2023-12-15 23:17:02.605 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order - -
+2023-12-15 23:17:02.607 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:17:02.608 +03:00 [INF] Route matched with {action = "Index", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:17:02.610 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:17:04.557 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:17:04.562 +03:00 [INF] Executed ViewResult - view Index executed in 4.829ms.
+2023-12-15 23:17:04.564 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 1954.365ms
+2023-12-15 23:17:04.566 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:17:04.568 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 200 - text/html;+charset=utf-8 1963.5684ms
+2023-12-15 23:17:04.586 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/css/site.css - -
+2023-12-15 23:17:04.587 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/jquery/dist/jquery.min.js - -
+2023-12-15 23:17:04.586 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-15 23:17:04.605 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\css\site.css'
+2023-12-15 23:17:04.609 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/css/site.css - - - 200 1417 text/css 23.2924ms
+2023-12-15 23:17:04.615 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-15 23:17:04.634 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-12-15 23:17:04.634 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-12-15 23:17:04.634 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-12-15 23:17:04.641 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 54.2514ms
+2023-12-15 23:17:04.641 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 26.7432ms
+2023-12-15 23:17:04.641 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 55.0677ms
+2023-12-15 23:17:04.648 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-12-15 23:17:04.651 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\js\site.js'
+2023-12-15 23:17:04.654 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 5.7489ms
+2023-12-15 23:17:04.668 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/favicon.ico - -
+2023-12-15 23:17:04.671 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\favicon.ico'
+2023-12-15 23:17:04.673 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/favicon.ico - - - 200 5430 image/x-icon 5.5128ms
+2023-12-15 23:17:12.421 +03:00 [INF] Starting Web Host
+2023-12-15 23:17:13.329 +03:00 [INF] User profile is available. Using 'C:\Users\ufuki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-15 23:17:13.589 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-15 23:17:13.597 +03:00 [INF] Hosting environment: Development
+2023-12-15 23:17:13.599 +03:00 [INF] Content root path: C:\Users\ufuki\SampleApp\SampleApp
+2023-12-15 23:17:13.623 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/ - -
+2023-12-15 23:17:13.651 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:17:13.685 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.HomeController (SampleApp).
+2023-12-15 23:17:13.704 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:17:13.854 +03:00 [INF] Executed ViewResult - view Index executed in 151.6995ms.
+2023-12-15 23:17:13.857 +03:00 [INF] Executed action SampleApp.Controllers.HomeController.Index (SampleApp) in 170.1133ms
+2023-12-15 23:17:13.860 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:17:13.869 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/ - - - 200 - text/html;+charset=utf-8 248.0444ms
+2023-12-15 23:17:16.119 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order - -
+2023-12-15 23:17:16.122 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:17:16.125 +03:00 [INF] Route matched with {action = "Index", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:17:16.593 +03:00 [WRN] No type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2023-12-15 23:17:16.670 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:17:20.571 +03:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice]
+FROM [Orders] AS [o]
+2023-12-15 23:17:20.626 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:17:20.652 +03:00 [INF] Executed ViewResult - view Index executed in 26.1389ms.
+2023-12-15 23:17:20.656 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 4528.8829ms
+2023-12-15 23:17:20.659 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:17:20.664 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 200 - text/html;+charset=utf-8 4545.0482ms
+2023-12-15 23:17:33.041 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order/Create - -
+2023-12-15 23:17:33.044 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Create (SampleApp)'
+2023-12-15 23:17:33.047 +03:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:17:33.067 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:17:33.071 +03:00 [INF] Executing ViewResult, running view Create.
+2023-12-15 23:17:33.113 +03:00 [INF] Executed ViewResult - view Create executed in 43.3682ms.
+2023-12-15 23:17:33.115 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Create (SampleApp) in 66.8115ms
+2023-12-15 23:17:33.117 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Create (SampleApp)'
+2023-12-15 23:17:33.119 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order/Create - - - 200 - text/html;+charset=utf-8 78.5366ms
+2023-12-15 23:17:44.510 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:12575/Order/Create application/x-www-form-urlencoded 231
+2023-12-15 23:17:44.513 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Create (SampleApp)'
+2023-12-15 23:17:44.526 +03:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(DataAccess.Entities.Order) on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:17:44.535 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:17:44.662 +03:00 [ERR] Failed executing DbCommand (21ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [ProductId], [Quantity], [TotalPrice])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Orders]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-12-15 23:17:44.700 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'DataAccess.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Orders_Products_ProductId". The conflict occurred in database "SampleAppDb", table "dbo.Products", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:347e55e1-9af9-4b9c-b5fa-69006025671f
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Orders_Products_ProductId". The conflict occurred in database "SampleAppDb", table "dbo.Products", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:347e55e1-9af9-4b9c-b5fa-69006025671f
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-12-15 23:17:48.867 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Create (SampleApp) in 4338.4141ms
+2023-12-15 23:17:48.869 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Create (SampleApp)'
+2023-12-15 23:17:48.874 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Orders_Products_ProductId". The conflict occurred in database "SampleAppDb", table "dbo.Products", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:347e55e1-9af9-4b9c-b5fa-69006025671f
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at DataAccess.Interfaces.Repository`1.Save() in C:\Users\ufuki\SampleApp\DataAccess\Interfaces\Repository.cs:line 52
+   at Business.OrderService.Add(Order model) in C:\Users\ufuki\SampleApp\Business\OrderService.cs:line 27
+   at SampleApp.Controllers.OrderController.Create(Order model) in C:\Users\ufuki\SampleApp\SampleApp\Controllers\OrderController.cs:line 36
+   at lambda_method87(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-15 23:17:48.969 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:12575/Order/Create application/x-www-form-urlencoded 231 - 500 - text/html;+charset=utf-8 4458.3645ms
+2023-12-15 23:17:53.340 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order/Create - -
+2023-12-15 23:17:53.341 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Create (SampleApp)'
+2023-12-15 23:17:53.343 +03:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:17:53.345 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:17:53.346 +03:00 [INF] Executing ViewResult, running view Create.
+2023-12-15 23:17:53.349 +03:00 [INF] Executed ViewResult - view Create executed in 2.9077ms.
+2023-12-15 23:17:53.351 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Create (SampleApp) in 6.253ms
+2023-12-15 23:17:53.352 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Create (SampleApp)'
+2023-12-15 23:17:53.354 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order/Create - - - 200 - text/html;+charset=utf-8 14.2088ms
+2023-12-15 23:17:56.504 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order - -
+2023-12-15 23:17:56.506 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:17:56.508 +03:00 [INF] Route matched with {action = "Index", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:17:56.510 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:18:01.277 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice]
+FROM [Orders] AS [o]
+2023-12-15 23:18:01.279 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:18:01.285 +03:00 [INF] Executed ViewResult - view Index executed in 6.0653ms.
+2023-12-15 23:18:01.287 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 4777.3497ms
+2023-12-15 23:18:01.288 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:18:01.290 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 200 - text/html;+charset=utf-8 4786.1586ms
+2023-12-15 23:18:05.594 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order/Update/2 - -
+2023-12-15 23:18:05.596 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Update (SampleApp)'
+2023-12-15 23:18:05.598 +03:00 [INF] Route matched with {action = "Update", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(Int32) on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:18:05.600 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:18:05.603 +03:00 [INF] Executing ViewResult, running view Update.
+2023-12-15 23:18:05.619 +03:00 [INF] Executed ViewResult - view Update executed in 17.1178ms.
+2023-12-15 23:18:05.622 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Update (SampleApp) in 21.9756ms
+2023-12-15 23:18:05.623 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Update (SampleApp)'
+2023-12-15 23:18:05.626 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order/Update/2 - - - 200 - text/html;+charset=utf-8 31.5503ms
+2023-12-15 23:18:12.199 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:12575/Order/Update/2 application/x-www-form-urlencoded 237
+2023-12-15 23:18:12.200 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Update (SampleApp)'
+2023-12-15 23:18:12.204 +03:00 [INF] Route matched with {action = "Update", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(DataAccess.Entities.Order) on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:18:12.206 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:18:12.219 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Orders] SET [CustomerId] = @p0, [ProductId] = @p1, [Quantity] = @p2, [TotalPrice] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;
+2023-12-15 23:18:12.228 +03:00 [INF] Executing RedirectResult, redirecting to /Order.
+2023-12-15 23:18:12.230 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Update (SampleApp) in 24.9896ms
+2023-12-15 23:18:12.232 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Update (SampleApp)'
+2023-12-15 23:18:12.235 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:12575/Order/Update/2 application/x-www-form-urlencoded 237 - 302 - - 36.5325ms
+2023-12-15 23:18:12.240 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order - -
+2023-12-15 23:18:12.242 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:18:12.244 +03:00 [INF] Route matched with {action = "Index", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:18:12.245 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:18:12.247 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice]
+FROM [Orders] AS [o]
+2023-12-15 23:18:12.249 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:18:12.256 +03:00 [INF] Executed ViewResult - view Index executed in 6.7429ms.
+2023-12-15 23:18:12.257 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 12.2986ms
+2023-12-15 23:18:12.259 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:18:12.261 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 200 - text/html;+charset=utf-8 21.1165ms
+2023-12-15 23:18:14.654 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order/DeleteOrder/2 - -
+2023-12-15 23:18:14.655 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.DeleteOrder (SampleApp)'
+2023-12-15 23:18:14.658 +03:00 [INF] Route matched with {action = "DeleteOrder", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeleteOrder(Int32) on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:18:14.660 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:18:14.662 +03:00 [INF] Executing ViewResult, running view DeleteOrder.
+2023-12-15 23:18:14.674 +03:00 [INF] Executed ViewResult - view DeleteOrder executed in 12.7148ms.
+2023-12-15 23:18:14.677 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.DeleteOrder (SampleApp) in 17.1252ms
+2023-12-15 23:18:14.678 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.DeleteOrder (SampleApp)'
+2023-12-15 23:18:14.680 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order/DeleteOrder/2 - - - 200 - text/html;+charset=utf-8 26.7556ms
+2023-12-15 23:18:16.311 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:12575/Order/Delete application/x-www-form-urlencoded 187
+2023-12-15 23:18:16.313 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Delete (SampleApp)'
+2023-12-15 23:18:16.316 +03:00 [INF] Route matched with {action = "Delete", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32) on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:18:16.318 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:18:16.384 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice]
+FROM [Orders] AS [o]
+WHERE [o].[Id] = @__p_0
+2023-12-15 23:18:16.390 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Orders]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-12-15 23:18:16.396 +03:00 [INF] Executing RedirectResult, redirecting to /Order.
+2023-12-15 23:18:16.398 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Delete (SampleApp) in 80.3516ms
+2023-12-15 23:18:16.400 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Delete (SampleApp)'
+2023-12-15 23:18:16.403 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:12575/Order/Delete application/x-www-form-urlencoded 187 - 302 - - 91.7747ms
+2023-12-15 23:18:16.407 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order - -
+2023-12-15 23:18:16.408 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:18:16.410 +03:00 [INF] Route matched with {action = "Index", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:18:16.412 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:18:16.414 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice]
+FROM [Orders] AS [o]
+2023-12-15 23:18:16.416 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:18:16.420 +03:00 [INF] Executed ViewResult - view Index executed in 3.8177ms.
+2023-12-15 23:18:16.421 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 9.9898ms
+2023-12-15 23:18:16.423 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:18:16.425 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 200 - text/html;+charset=utf-8 18.3471ms
+2023-12-15 23:32:59.519 +03:00 [INF] Starting Web Host
+2023-12-15 23:33:00.636 +03:00 [INF] User profile is available. Using 'C:\Users\ufuki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-15 23:33:00.822 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-15 23:33:00.824 +03:00 [INF] Hosting environment: Development
+2023-12-15 23:33:00.830 +03:00 [INF] Content root path: C:\Users\ufuki\SampleApp\SampleApp
+2023-12-15 23:33:00.851 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/ - -
+2023-12-15 23:33:00.879 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:33:00.918 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.HomeController (SampleApp).
+2023-12-15 23:33:00.937 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:33:01.051 +03:00 [INF] Executed ViewResult - view Index executed in 115.0391ms.
+2023-12-15 23:33:01.055 +03:00 [INF] Executed action SampleApp.Controllers.HomeController.Index (SampleApp) in 134.6927ms
+2023-12-15 23:33:01.057 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:33:01.065 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/ - - - 200 - text/html;+charset=utf-8 216.7143ms
+2023-12-15 23:33:01.077 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-12-15 23:33:01.077 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/jquery/dist/jquery.min.js - -
+2023-12-15 23:33:01.077 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-15 23:33:01.077 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/css/site.css - -
+2023-12-15 23:33:01.077 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-15 23:33:01.095 +03:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2023-12-15 23:33:01.095 +03:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-12-15 23:33:01.095 +03:00 [INF] The file /js/site.js was not modified
+2023-12-15 23:33:01.095 +03:00 [INF] The file /css/site.css was not modified
+2023-12-15 23:33:01.096 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-12-15 23:33:01.104 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/css/site.css - - - 304 - text/css 27.5681ms
+2023-12-15 23:33:01.104 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 27.6043ms
+2023-12-15 23:33:01.104 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 27.5876ms
+2023-12-15 23:33:01.104 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 27.5684ms
+2023-12-15 23:33:01.104 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 27.6067ms
+2023-12-15 23:33:03.107 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order - -
+2023-12-15 23:33:03.116 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:33:03.120 +03:00 [INF] Route matched with {action = "Index", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:33:03.591 +03:00 [WRN] No type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2023-12-15 23:33:03.662 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:33:04.990 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice], [p].[Id], [p].[Name], [p].[Price], [p].[ProductType]
+FROM [Orders] AS [o]
+INNER JOIN [Products] AS [p] ON [o].[ProductId] = [p].[Id]
+2023-12-15 23:33:05.058 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:33:05.074 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice]
+FROM [Orders] AS [o]
+2023-12-15 23:33:05.091 +03:00 [INF] Executed ViewResult - view Index executed in 33.4803ms.
+2023-12-15 23:33:05.094 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 1973.0613ms
+2023-12-15 23:33:05.098 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:33:05.105 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 200 - text/html;+charset=utf-8 1997.6254ms
+2023-12-15 23:38:34.569 +03:00 [INF] Starting Web Host
+2023-12-15 23:38:35.558 +03:00 [INF] User profile is available. Using 'C:\Users\ufuki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-15 23:38:35.762 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-15 23:38:35.764 +03:00 [INF] Hosting environment: Development
+2023-12-15 23:38:35.778 +03:00 [INF] Content root path: C:\Users\ufuki\SampleApp\SampleApp
+2023-12-15 23:38:35.808 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/ - -
+2023-12-15 23:38:35.836 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:38:35.872 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.HomeController (SampleApp).
+2023-12-15 23:38:35.903 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:38:36.056 +03:00 [INF] Executed ViewResult - view Index executed in 160.0945ms.
+2023-12-15 23:38:36.060 +03:00 [INF] Executed action SampleApp.Controllers.HomeController.Index (SampleApp) in 184.121ms
+2023-12-15 23:38:36.063 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:38:36.071 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/ - - - 200 - text/html;+charset=utf-8 266.6024ms
+2023-12-15 23:38:38.843 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order - -
+2023-12-15 23:38:38.847 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:38:38.850 +03:00 [INF] Route matched with {action = "Index", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:38:39.342 +03:00 [WRN] No type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2023-12-15 23:38:39.408 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:38:39.963 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice], [p].[Id], [p].[Name], [p].[Price], [p].[ProductType]
+FROM [Orders] AS [o]
+INNER JOIN [Products] AS [p] ON [o].[ProductId] = [p].[Id]
+2023-12-15 23:38:40.045 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice], [c].[Id], [c].[City], [c].[Name]
+FROM [Orders] AS [o]
+INNER JOIN [Customers] AS [c] ON [o].[CustomerId] = [c].[Id]
+2023-12-15 23:38:40.054 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:38:40.066 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice]
+FROM [Orders] AS [o]
+2023-12-15 23:38:40.084 +03:00 [INF] Executed ViewResult - view Index executed in 30.5853ms.
+2023-12-15 23:38:40.088 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 1235.5837ms
+2023-12-15 23:38:40.096 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:38:40.101 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 200 - text/html;+charset=utf-8 1258.4269ms

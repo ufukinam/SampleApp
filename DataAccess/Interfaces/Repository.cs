@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -32,9 +33,12 @@ namespace DataAccess.Interfaces
                 _dbSet.Remove(entityToDelete);
         }
 
-        public IEnumerable<T> GetAll()
+        public IQueryable<T> GetAll(Expression<Func<T, bool>> filter, params Expression<Func<T, object>>[] children)
         {
-            return _dbSet.ToList();
+            //return _dbSet.ToList();
+
+            children.ToList().ForEach(x => _dbSet.Include(x).Load());
+            return _dbSet;
         }
 
         public T GetById(int id)

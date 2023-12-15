@@ -42,7 +42,7 @@ namespace Business
                 return cacheData;
             }
             var expirationTime = DateTimeOffset.Now.AddMinutes(5.0);
-            var products = _repository.GetAll();
+            var products = _repository.GetAll(null,null);
             cacheData = products;
             _memoryCache.Set("products", cacheData, expirationTime);
             return products;

@@ -42,7 +42,8 @@ namespace Business
                 return cacheData;
             }
             var expirationTime = DateTimeOffset.Now.AddMinutes(5.0);
-            var orders = _repository.GetAll();
+            var orders = _repository.GetAll(null,
+            r => r.Product, r=>r.Customer);
             cacheData = orders;
             _memoryCache.Set("orders", cacheData, expirationTime);
             return orders;

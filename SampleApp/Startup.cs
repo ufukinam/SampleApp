@@ -36,7 +36,9 @@ namespace SampleApp
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<IRepository<Product>, Repository<Product>>();
+            services.AddScoped<IRepository<Order>, Repository<Order>>();
             services.AddScoped<IService<Product>, ProductService>();
+            services.AddScoped<IService<Order>, OrderService>();
             services.AddMemoryCache();
         }
 
