@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DataAccess.Entities;
 
 namespace SampleApp
 {
@@ -34,6 +35,8 @@ namespace SampleApp
                 );
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<ICustomerService, CustomerService>();
+            services.AddScoped<IRepository<Product>, Repository<Product>>();
+            services.AddScoped<IService<Product>, ProductService>();
             services.AddMemoryCache();
         }
 
