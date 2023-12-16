@@ -33,10 +33,10 @@ namespace SampleApp
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
                 );
-            services.AddScoped<ICustomerRepository, CustomerRepository>();
-            services.AddScoped<ICustomerService, CustomerService>();
+            services.AddScoped<IRepository<Customer>, Repository<Customer>>();
             services.AddScoped<IRepository<Product>, Repository<Product>>();
             services.AddScoped<IRepository<Order>, Repository<Order>>();
+            services.AddScoped<IService<Customer>, CustomerService>();
             services.AddScoped<IService<Product>, ProductService>();
             services.AddScoped<IService<Order>, OrderService>();
             services.AddMemoryCache();
@@ -63,7 +63,7 @@ namespace SampleApp
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Customer}/{action=Index}/{id?}");
             });
         }
     }

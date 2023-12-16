@@ -7,21 +7,38 @@
 <h1>Create</h1>
 
 <h4>Order</h4>
+@*@{
+
+        IEnumerable<DataAccess.Entities.Product> products = ViewData["Products"] as IEnumerable<DataAccess.Entities.Product>;
+        IEnumerable<DataAccess.Entities.Customer> customers = ViewData["Customers"] as IEnumerable<DataAccess.Entities.Customer>;
+    }*@
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @*<div class="form-group">
+                    <label asp-for="CustomerId" class="control-label"></label>
+                    <input asp-for="CustomerId" class="form-control" />
+                    <span asp-validation-for="CustomerId" class="text-danger"></span>
+                </div>*@
             <div class="form-group">
                 <label asp-for="CustomerId" class="control-label"></label>
-                <input asp-for="CustomerId" class="form-control" />
+                @Html.DropDownList("CustomerId", (IEnumerable
+        <SelectListItem>)ViewData["Customers"], new { @class = "form-control" })
                 <span asp-validation-for="CustomerId" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="ProductId" class="control-label"></label>
-                <input asp-for="ProductId" class="form-control" />
-                <span asp-validation-for="ProductId" class="text-danger"></span>
-            </div>
+            @*<div class="form-group">
+                    <label asp-for="ProductId" class="control-label"></label>
+                    <input asp-for="ProductId" class="form-control" />
+                    <span asp-validation-for="ProductId" class="text-danger"></span>
+                </div>*@
+        <div class="form-group">
+            <label asp-for="ProductId" class="control-label"></label>
+            @Html.DropDownList("ProductId", (IEnumerable
+    <SelectListItem>)ViewData["Products"], new { @class = "form-control" })
+            <span asp-validation-for="ProductId" class="text-danger"></span>
+        </div>
             <div class="form-group">
                 <label asp-for="Quantity" class="control-label"></label>
                 <input asp-for="Quantity" class="form-control" />

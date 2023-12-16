@@ -33,16 +33,19 @@ namespace DataAccess.Interfaces
                 _dbSet.Remove(entityToDelete);
         }
 
-        public IQueryable<T> GetAll(Expression<Func<T, bool>> filter, params Expression<Func<T, object>>[] children)
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter, params Expression<Func<T, object>>[] children)
         {
             //return _dbSet.ToList();
+            if (children != null)
+                children.ToList().ForEach(x => _dbSet.Include(x).Load());
 
-            children.ToList().ForEach(x => _dbSet.Include(x).Load());
-            return _dbSet;
+            return _dbSet.AsEnumerable<T>();
         }
 
-        public T GetById(int id)
+        public T GetById(int id, params Expression<Func<T, object>>[] children)
         {
+            if (children != null)
+                children.ToList().ForEach(x => _dbSet.Include(x).Load());
             return _dbSet.Find(id);
         }
 
@@ -54,6 +57,24 @@ namespace DataAccess.Interfaces
         public void Save()
         {
             _dbContext.SaveChanges();
+        }
+        private bool disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!this.disposed)
+            {
+                if (disposing)
+                {
+                    _dbContext.Dispose();
+                }
+            }
+            this.disposed = true;
+        }
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
     }
 }

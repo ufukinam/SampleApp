@@ -1,69 +1,46 @@
 ﻿using DataAccess.Entities;
 using DataAccess.Interfaces;
 using Microsoft.Extensions.Caching.Memory;
-using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Business
 {
-    public class CustomerService : ICustomerService
+    public class CustomerService : IService<Customer>
     {
-        private readonly IMemoryCache _memoryCache;
-        private readonly ICustomerRepository _customerRepository;
+        private readonly IRepository<Customer> _repository;
 
-        public CustomerService(ICustomerRepository customerRepository, IMemoryCache memoryCache)
+        public CustomerService(IRepository<Customer> repository, IMemoryCache memoryCache)
         {
-            _customerRepository = customerRepository;
-            _memoryCache = memoryCache;
+            _repository = repository;
         }
 
-        public IEnumerable<Customer> GetCustomers()
+        public IEnumerable<Customer> GetAll()
         {
-            var cacheData = _memoryCache.Get<IEnumerable<Customer>>("customers");
-            if (cacheData != null)
-            {
-                return cacheData;
-            }
-            var expirationTime = DateTimeOffset.Now.AddMinutes(5.0);
-            var customers = _customerRepository.GetCustomers();
-            cacheData = customers;
-            _memoryCache.Set("customers", cacheData, expirationTime);
+            var customers = _repository.GetAll(null,null);
             return customers;
         }
 
-        public Customer GetCustomerById(int id)
+        public Customer GetById(int id)
         {
-            var cacheData = _memoryCache.Get<IEnumerable<Customer>>("customers").Where(x=>x.Id==id).FirstOrDefault();
-            if (cacheData != null)
-            {
-                return cacheData;
-            }
-            return _customerRepository.GetCustomerById(id);
+            return _repository.GetById(id,null);
         }
 
-        public void AddCustomer(Customer customer)
+        public void Add(Customer customer)
         {
-            _memoryCache.Remove("customers");
-            _customerRepository.AddCustomer(customer);
-            _customerRepository.Save();
+            _repository.Add(customer);
+            _repository.Save();
         }
 
-        public void DeleteCustomer(int id)
+        public void Delete(int id)
         {
-            _memoryCache.Remove("customers");
-            _customerRepository.DeleteCustomer(id);
-            _customerRepository.Save();
+            _repository.Delete(id);
+            _repository.Save();
         }
 
-        public void UpdateCustomer(Customer customer)
+        public void Update(Customer customer)
         {
-            _memoryCache.Remove("customers");
-            _customerRepository.UpdateCustomer(customer);
-            _customerRepository.Save();
+            _repository.Update(customer);
+            _repository.Save();
         }
     }
 }

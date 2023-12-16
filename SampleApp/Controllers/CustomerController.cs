@@ -11,15 +11,15 @@ namespace SampleApp.Controllers
 {
     public class CustomerController : Controller
     {
-        private readonly ICustomerService _customerService;
-        public CustomerController(ICustomerService customerService)
+        private readonly IService<Customer> _customerService;
+        public CustomerController(IService<Customer> customerService)
         {
             _customerService = customerService;
         }
 
         public IActionResult Index()
         {
-            var customers =  _customerService.GetCustomers();
+            var customers =  _customerService.GetAll();
             return View(customers);
         }
         [HttpGet]
@@ -32,7 +32,7 @@ namespace SampleApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                _customerService.AddCustomer(model);
+                _customerService.Add(model);
                 return RedirectToAction("Index", "Customer");
             }
             return View();
@@ -41,14 +41,14 @@ namespace SampleApp.Controllers
         [HttpGet]
         public IActionResult Update(int id)
         {
-            Customer model = _customerService.GetCustomerById(id);
+            Customer model = _customerService.GetById(id);
             return View(model);
         }
         [HttpPost]
         public IActionResult Update(Customer model)
         {
             if (ModelState.IsValid) { 
-                _customerService.UpdateCustomer(model);
+                _customerService.Update(model);
                 return RedirectToAction("Index", "Customer");
             }
             return View();
@@ -56,13 +56,13 @@ namespace SampleApp.Controllers
         [HttpGet]
         public ActionResult DeleteCustomer(int id)
         {
-            Customer model = _customerService.GetCustomerById(id);
+            Customer model = _customerService.GetById(id);
             return View(model);
         }
         [HttpPost]
         public ActionResult Delete(int id)
         {
-            _customerService.DeleteCustomer(id);
+            _customerService.Delete(id);
             return RedirectToAction("Index", "Customer");
         }
     }

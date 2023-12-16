@@ -42,7 +42,7 @@ namespace SampleApp.Controllers
         [HttpGet]
         public IActionResult Update(int id)
         {
-            Product model = _productService.GetById(id);
+            Product model =  _productService.GetById(id);
             return View(model);
         }
         [HttpPost]

@@ -1766,3 +1766,775 @@ FROM [Orders] AS [o]
 2023-12-15 23:38:40.088 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 1235.5837ms
 2023-12-15 23:38:40.096 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
 2023-12-15 23:38:40.101 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 200 - text/html;+charset=utf-8 1258.4269ms
+2023-12-15 23:47:40.202 +03:00 [INF] Starting Web Host
+2023-12-15 23:47:41.233 +03:00 [INF] User profile is available. Using 'C:\Users\ufuki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-15 23:47:41.420 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-15 23:47:41.421 +03:00 [INF] Hosting environment: Development
+2023-12-15 23:47:41.428 +03:00 [INF] Content root path: C:\Users\ufuki\SampleApp\SampleApp
+2023-12-15 23:47:41.450 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/ - -
+2023-12-15 23:47:41.481 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:47:41.514 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.HomeController (SampleApp).
+2023-12-15 23:47:41.533 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:47:41.644 +03:00 [INF] Executed ViewResult - view Index executed in 114.8924ms.
+2023-12-15 23:47:41.648 +03:00 [INF] Executed action SampleApp.Controllers.HomeController.Index (SampleApp) in 131.6566ms
+2023-12-15 23:47:41.650 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:47:41.658 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/ - - - 200 - text/html;+charset=utf-8 209.5605ms
+2023-12-15 23:47:43.904 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Customer - -
+2023-12-15 23:47:43.907 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:47:43.910 +03:00 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.CustomerController (SampleApp).
+2023-12-15 23:47:44.373 +03:00 [WRN] No type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2023-12-15 23:47:44.441 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:50:19.049 +03:00 [INF] Starting Web Host
+2023-12-15 23:50:20.033 +03:00 [INF] User profile is available. Using 'C:\Users\ufuki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-15 23:50:20.244 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-15 23:50:20.245 +03:00 [INF] Hosting environment: Development
+2023-12-15 23:50:20.250 +03:00 [INF] Content root path: C:\Users\ufuki\SampleApp\SampleApp
+2023-12-15 23:50:20.280 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/ - -
+2023-12-15 23:50:20.327 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:50:20.365 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.HomeController (SampleApp).
+2023-12-15 23:50:20.382 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:50:20.502 +03:00 [INF] Executed ViewResult - view Index executed in 122.6396ms.
+2023-12-15 23:50:20.506 +03:00 [INF] Executed action SampleApp.Controllers.HomeController.Index (SampleApp) in 139.1887ms
+2023-12-15 23:50:20.509 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:50:20.521 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-15 23:50:20.524 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/css/site.css - -
+2023-12-15 23:50:20.527 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-15 23:50:20.527 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/jquery/dist/jquery.min.js - -
+2023-12-15 23:50:20.527 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-12-15 23:50:20.535 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/ - - - 200 - text/html;+charset=utf-8 250.6690ms
+2023-12-15 23:50:20.548 +03:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2023-12-15 23:50:20.548 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-12-15 23:50:20.548 +03:00 [INF] The file /js/site.js was not modified
+2023-12-15 23:50:20.548 +03:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-12-15 23:50:20.548 +03:00 [INF] The file /css/site.css was not modified
+2023-12-15 23:50:20.569 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 42.1818ms
+2023-12-15 23:50:20.569 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 47.5411ms
+2023-12-15 23:50:20.569 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 42.3691ms
+2023-12-15 23:50:20.569 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 42.3933ms
+2023-12-15 23:50:20.569 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/css/site.css - - - 304 - text/css 44.8837ms
+2023-12-15 23:50:22.670 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Customer - -
+2023-12-15 23:50:22.677 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:50:22.680 +03:00 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.CustomerController (SampleApp).
+2023-12-15 23:50:23.164 +03:00 [WRN] No type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2023-12-15 23:50:23.236 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:50:23.241 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:50:24.516 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[City], [c].[Name]
+FROM [Customers] AS [c]
+2023-12-15 23:50:24.580 +03:00 [INF] Executed ViewResult - view Index executed in 1339.4896ms.
+2023-12-15 23:50:24.583 +03:00 [INF] Executed action SampleApp.Controllers.CustomerController.Index (SampleApp) in 1900.0346ms
+2023-12-15 23:50:24.585 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:50:24.591 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Customer - - - 200 - text/html;+charset=utf-8 1922.2313ms
+2023-12-15 23:50:27.664 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Product - -
+2023-12-15 23:50:27.667 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.ProductController.Index (SampleApp)'
+2023-12-15 23:50:27.670 +03:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.ProductController (SampleApp).
+2023-12-15 23:50:27.692 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:50:27.696 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:50:27.710 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[ProductType]
+FROM [Products] AS [p]
+2023-12-15 23:50:27.732 +03:00 [INF] Executed ViewResult - view Index executed in 36.6255ms.
+2023-12-15 23:50:27.736 +03:00 [INF] Executed action SampleApp.Controllers.ProductController.Index (SampleApp) in 63.2165ms
+2023-12-15 23:50:27.738 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.ProductController.Index (SampleApp)'
+2023-12-15 23:50:27.742 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Product - - - 200 - text/html;+charset=utf-8 77.7116ms
+2023-12-15 23:50:29.057 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order - -
+2023-12-15 23:50:29.059 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:50:29.062 +03:00 [INF] Route matched with {action = "Index", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:50:29.069 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:50:29.153 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice], [p].[Id], [p].[Name], [p].[Price], [p].[ProductType]
+FROM [Orders] AS [o]
+INNER JOIN [Products] AS [p] ON [o].[ProductId] = [p].[Id]
+2023-12-15 23:50:29.172 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice], [c].[Id], [c].[City], [c].[Name]
+FROM [Orders] AS [o]
+INNER JOIN [Customers] AS [c] ON [o].[CustomerId] = [c].[Id]
+2023-12-15 23:50:29.176 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:50:29.185 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice]
+FROM [Orders] AS [o]
+2023-12-15 23:50:29.191 +03:00 [INF] Executed ViewResult - view Index executed in 14.9626ms.
+2023-12-15 23:50:29.194 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 130.057ms
+2023-12-15 23:50:29.196 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:50:29.199 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 200 - text/html;+charset=utf-8 142.8144ms
+2023-12-15 23:50:34.831 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Product - -
+2023-12-15 23:50:34.833 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.ProductController.Index (SampleApp)'
+2023-12-15 23:50:34.836 +03:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.ProductController (SampleApp).
+2023-12-15 23:50:34.838 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:50:34.840 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:50:34.897 +03:00 [INF] Executed action SampleApp.Controllers.ProductController.Index (SampleApp) in 59.3358ms
+2023-12-15 23:50:34.900 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.ProductController.Index (SampleApp)'
+2023-12-15 23:50:34.905 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'ApplicationDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ChangeTracker()
+   at Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerCompiledQueryCacheKeyGenerator.GenerateCacheKey(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at AspNetCore.Views_Product_Index.ExecuteAsync() in C:\Users\ufuki\SampleApp\SampleApp\Views\Product\Index.cshtml:line 31
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-15 23:50:34.997 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Product - - - 500 - text/html;+charset=utf-8 165.7581ms
+2023-12-15 23:50:43.328 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Customer - -
+2023-12-15 23:50:43.331 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:50:43.333 +03:00 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.CustomerController (SampleApp).
+2023-12-15 23:50:43.335 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:50:43.337 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:50:43.370 +03:00 [INF] Executed action SampleApp.Controllers.CustomerController.Index (SampleApp) in 35.1986ms
+2023-12-15 23:50:43.372 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:50:43.374 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'ApplicationDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ChangeTracker()
+   at Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerCompiledQueryCacheKeyGenerator.GenerateCacheKey(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at AspNetCore.Views_Customer_Index.ExecuteAsync() in C:\Users\ufuki\SampleApp\SampleApp\Views\Customer\Index.cshtml:line 28
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-15 23:50:43.385 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Customer - - - 500 - text/html;+charset=utf-8 56.4230ms
+2023-12-15 23:52:24.518 +03:00 [INF] Starting Web Host
+2023-12-15 23:52:25.535 +03:00 [INF] User profile is available. Using 'C:\Users\ufuki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-15 23:52:25.704 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-15 23:52:25.708 +03:00 [INF] Hosting environment: Development
+2023-12-15 23:52:25.713 +03:00 [INF] Content root path: C:\Users\ufuki\SampleApp\SampleApp
+2023-12-15 23:52:25.742 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/ - -
+2023-12-15 23:52:25.769 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:52:25.803 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.HomeController (SampleApp).
+2023-12-15 23:52:25.820 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:52:25.928 +03:00 [INF] Executed ViewResult - view Index executed in 110.8178ms.
+2023-12-15 23:52:25.932 +03:00 [INF] Executed action SampleApp.Controllers.HomeController.Index (SampleApp) in 126.0571ms
+2023-12-15 23:52:25.934 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:52:25.943 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/ - - - 200 - text/html;+charset=utf-8 202.3218ms
+2023-12-15 23:52:28.059 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Customer - -
+2023-12-15 23:52:28.062 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:52:28.066 +03:00 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.CustomerController (SampleApp).
+2023-12-15 23:52:28.540 +03:00 [WRN] No type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2023-12-15 23:52:28.606 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:52:28.611 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:52:29.075 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[City], [c].[Name]
+FROM [Customers] AS [c]
+2023-12-15 23:52:29.138 +03:00 [INF] Executed ViewResult - view Index executed in 527.7183ms.
+2023-12-15 23:52:29.143 +03:00 [INF] Executed action SampleApp.Controllers.CustomerController.Index (SampleApp) in 1075.1889ms
+2023-12-15 23:52:29.145 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:52:29.155 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Customer - - - 200 - text/html;+charset=utf-8 1095.6019ms
+2023-12-15 23:52:30.198 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Product - -
+2023-12-15 23:52:30.202 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.ProductController.Index (SampleApp)'
+2023-12-15 23:52:30.205 +03:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.ProductController (SampleApp).
+2023-12-15 23:52:30.225 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:52:30.229 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:52:30.243 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[ProductType]
+FROM [Products] AS [p]
+2023-12-15 23:52:30.265 +03:00 [INF] Executed ViewResult - view Index executed in 36.5177ms.
+2023-12-15 23:52:30.268 +03:00 [INF] Executed action SampleApp.Controllers.ProductController.Index (SampleApp) in 61.3787ms
+2023-12-15 23:52:30.270 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.ProductController.Index (SampleApp)'
+2023-12-15 23:52:30.273 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Product - - - 200 - text/html;+charset=utf-8 75.0079ms
+2023-12-15 23:52:31.450 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Customer - -
+2023-12-15 23:52:31.452 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:52:31.454 +03:00 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.CustomerController (SampleApp).
+2023-12-15 23:52:31.461 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:52:31.464 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:52:31.519 +03:00 [INF] Executed action SampleApp.Controllers.CustomerController.Index (SampleApp) in 62.3699ms
+2023-12-15 23:52:31.521 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:52:31.526 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'ApplicationDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ChangeTracker()
+   at Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerCompiledQueryCacheKeyGenerator.GenerateCacheKey(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at AspNetCore.Views_Customer_Index.ExecuteAsync() in C:\Users\ufuki\SampleApp\SampleApp\Views\Customer\Index.cshtml:line 28
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-15 23:52:31.605 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Customer - - - 500 - text/html;+charset=utf-8 155.1748ms
+2023-12-15 23:58:51.064 +03:00 [INF] Starting Web Host
+2023-12-15 23:58:52.017 +03:00 [INF] User profile is available. Using 'C:\Users\ufuki\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-15 23:58:52.228 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-15 23:58:52.230 +03:00 [INF] Hosting environment: Development
+2023-12-15 23:58:52.243 +03:00 [INF] Content root path: C:\Users\ufuki\SampleApp\SampleApp
+2023-12-15 23:58:52.270 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/ - -
+2023-12-15 23:58:52.298 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:58:52.335 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.HomeController (SampleApp).
+2023-12-15 23:58:52.354 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:58:52.464 +03:00 [INF] Executed ViewResult - view Index executed in 114.4942ms.
+2023-12-15 23:58:52.468 +03:00 [INF] Executed action SampleApp.Controllers.HomeController.Index (SampleApp) in 130.7937ms
+2023-12-15 23:58:52.470 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:58:52.478 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/ - - - 200 - text/html;+charset=utf-8 210.5627ms
+2023-12-15 23:58:53.920 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Customer - -
+2023-12-15 23:58:53.924 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:58:53.934 +03:00 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SampleApp.Controllers.CustomerController (SampleApp).
+2023-12-15 23:58:54.405 +03:00 [WRN] No type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2023-12-15 23:58:54.480 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:58:54.486 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:58:54.943 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[City], [c].[Name]
+FROM [Customers] AS [c]
+2023-12-15 23:58:55.005 +03:00 [INF] Executed ViewResult - view Index executed in 519.4184ms.
+2023-12-15 23:58:55.011 +03:00 [INF] Executed action SampleApp.Controllers.CustomerController.Index (SampleApp) in 1072.6137ms
+2023-12-15 23:58:55.015 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:58:55.021 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Customer - - - 200 - text/html;+charset=utf-8 1100.6243ms
+2023-12-15 23:58:56.315 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Product - -
+2023-12-15 23:58:56.318 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.ProductController.Index (SampleApp)'
+2023-12-15 23:58:56.321 +03:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.ProductController (SampleApp).
+2023-12-15 23:58:56.343 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:58:56.347 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:58:56.355 +03:00 [INF] Executed action SampleApp.Controllers.ProductController.Index (SampleApp) in 33.0692ms
+2023-12-15 23:58:56.358 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.ProductController.Index (SampleApp)'
+2023-12-15 23:58:56.361 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[DataAccess.Entities.Product]]', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.IEnumerable`1[DataAccess.Entities.Product]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method70(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-15 23:58:56.418 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Product - - - 500 - text/html;+charset=utf-8 102.9591ms
+2023-12-15 23:59:19.268 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Order - -
+2023-12-15 23:59:19.270 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:59:19.274 +03:00 [INF] Route matched with {action = "Index", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.OrderController (SampleApp).
+2023-12-15 23:59:19.281 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:59:19.382 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice], [p].[Id], [p].[Name], [p].[Price], [p].[ProductType]
+FROM [Orders] AS [o]
+INNER JOIN [Products] AS [p] ON [o].[ProductId] = [p].[Id]
+2023-12-15 23:59:19.417 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[ProductId], [o].[Quantity], [o].[TotalPrice], [c].[Id], [c].[City], [c].[Name]
+FROM [Orders] AS [o]
+INNER JOIN [Customers] AS [c] ON [o].[CustomerId] = [c].[Id]
+2023-12-15 23:59:19.421 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:59:19.430 +03:00 [INF] Executed action SampleApp.Controllers.OrderController.Index (SampleApp) in 154.6084ms
+2023-12-15 23:59:19.432 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.OrderController.Index (SampleApp)'
+2023-12-15 23:59:19.436 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[DataAccess.Entities.Order]]', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.IEnumerable`1[DataAccess.Entities.Order]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method136(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-15 23:59:19.448 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Order - - - 500 - text/html;+charset=utf-8 179.6191ms
+2023-12-15 23:59:22.970 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Customer - -
+2023-12-15 23:59:22.972 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:22.973 +03:00 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SampleApp.Controllers.CustomerController (SampleApp).
+2023-12-15 23:59:22.975 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:59:22.976 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:59:23.024 +03:00 [INF] Executed action SampleApp.Controllers.CustomerController.Index (SampleApp) in 50.0501ms
+2023-12-15 23:59:23.026 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:23.028 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'ApplicationDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ChangeTracker()
+   at Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerCompiledQueryCacheKeyGenerator.GenerateCacheKey(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at AspNetCore.Views_Customer_Index.ExecuteAsync() in C:\Users\ufuki\SampleApp\SampleApp\Views\Customer\Index.cshtml:line 28
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-15 23:59:23.055 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Customer - - - 500 - text/html;+charset=utf-8 84.9562ms
+2023-12-15 23:59:32.501 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/ - -
+2023-12-15 23:59:32.502 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:59:32.504 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.HomeController (SampleApp).
+2023-12-15 23:59:32.505 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:59:32.508 +03:00 [INF] Executed ViewResult - view Index executed in 2.2396ms.
+2023-12-15 23:59:32.511 +03:00 [INF] Executed action SampleApp.Controllers.HomeController.Index (SampleApp) in 6.159ms
+2023-12-15 23:59:32.513 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:59:32.515 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/ - - - 200 - text/html;+charset=utf-8 14.6751ms
+2023-12-15 23:59:32.547 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/favicon.ico - -
+2023-12-15 23:59:32.553 +03:00 [INF] The file /favicon.ico was not modified
+2023-12-15 23:59:32.556 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/favicon.ico - - - 304 - image/x-icon 8.5926ms
+2023-12-15 23:59:33.821 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Customer - -
+2023-12-15 23:59:33.823 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:33.825 +03:00 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SampleApp.Controllers.CustomerController (SampleApp).
+2023-12-15 23:59:33.828 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:59:33.830 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:59:33.856 +03:00 [INF] Executed action SampleApp.Controllers.CustomerController.Index (SampleApp) in 30.0867ms
+2023-12-15 23:59:33.859 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:33.860 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'ApplicationDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ChangeTracker()
+   at Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerCompiledQueryCacheKeyGenerator.GenerateCacheKey(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at AspNetCore.Views_Customer_Index.ExecuteAsync() in C:\Users\ufuki\SampleApp\SampleApp\Views\Customer\Index.cshtml:line 28
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-15 23:59:33.869 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Customer - - - 500 - text/html;+charset=utf-8 47.1724ms
+2023-12-15 23:59:38.941 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/ - -
+2023-12-15 23:59:38.943 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:59:38.945 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SampleApp.Controllers.HomeController (SampleApp).
+2023-12-15 23:59:38.946 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:59:38.949 +03:00 [INF] Executed ViewResult - view Index executed in 2.5593ms.
+2023-12-15 23:59:38.951 +03:00 [INF] Executed action SampleApp.Controllers.HomeController.Index (SampleApp) in 4.2665ms
+2023-12-15 23:59:38.952 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.HomeController.Index (SampleApp)'
+2023-12-15 23:59:38.955 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/ - - - 200 - text/html;+charset=utf-8 13.3789ms
+2023-12-15 23:59:38.976 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/css/site.css - -
+2023-12-15 23:59:38.976 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-12-15 23:59:38.976 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-15 23:59:38.988 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-15 23:59:38.988 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/lib/jquery/dist/jquery.min.js - -
+2023-12-15 23:59:39.001 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\css\site.css'
+2023-12-15 23:59:39.001 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\js\site.js'
+2023-12-15 23:59:39.012 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 31.5776ms
+2023-12-15 23:59:39.012 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/css/site.css - - - 200 1417 text/css 35.1351ms
+2023-12-15 23:59:39.044 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-12-15 23:59:39.044 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-12-15 23:59:39.044 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-12-15 23:59:39.051 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 75.7490ms
+2023-12-15 23:59:39.051 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 63.0640ms
+2023-12-15 23:59:39.054 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 66.2290ms
+2023-12-15 23:59:39.082 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/favicon.ico - -
+2023-12-15 23:59:39.085 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\favicon.ico'
+2023-12-15 23:59:39.088 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/favicon.ico - - - 200 5430 image/x-icon 5.6595ms
+2023-12-15 23:59:40.305 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Customer - -
+2023-12-15 23:59:40.308 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:40.310 +03:00 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SampleApp.Controllers.CustomerController (SampleApp).
+2023-12-15 23:59:40.312 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:59:40.315 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:59:40.342 +03:00 [INF] Executed action SampleApp.Controllers.CustomerController.Index (SampleApp) in 29.7497ms
+2023-12-15 23:59:40.344 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:40.346 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'ApplicationDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ChangeTracker()
+   at Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerCompiledQueryCacheKeyGenerator.GenerateCacheKey(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at AspNetCore.Views_Customer_Index.ExecuteAsync() in C:\Users\ufuki\SampleApp\SampleApp\Views\Customer\Index.cshtml:line 28
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-15 23:59:40.356 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Customer - - - 500 - text/html;+charset=utf-8 50.0745ms
+2023-12-15 23:59:41.427 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Customer - -
+2023-12-15 23:59:41.429 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:41.432 +03:00 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SampleApp.Controllers.CustomerController (SampleApp).
+2023-12-15 23:59:41.434 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:59:41.436 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:59:41.464 +03:00 [INF] Executed action SampleApp.Controllers.CustomerController.Index (SampleApp) in 30.0266ms
+2023-12-15 23:59:41.466 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:41.468 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'ApplicationDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ChangeTracker()
+   at Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerCompiledQueryCacheKeyGenerator.GenerateCacheKey(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at AspNetCore.Views_Customer_Index.ExecuteAsync() in C:\Users\ufuki\SampleApp\SampleApp\Views\Customer\Index.cshtml:line 28
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-15 23:59:41.478 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Customer - - - 500 - text/html;+charset=utf-8 50.9929ms
+2023-12-15 23:59:41.511 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/favicon.ico - -
+2023-12-15 23:59:41.513 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\favicon.ico'
+2023-12-15 23:59:41.516 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/favicon.ico - - - 200 5430 image/x-icon 5.0902ms
+2023-12-15 23:59:41.939 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Customer - -
+2023-12-15 23:59:41.941 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:41.943 +03:00 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SampleApp.Controllers.CustomerController (SampleApp).
+2023-12-15 23:59:41.946 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:59:41.948 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:59:41.975 +03:00 [INF] Executed action SampleApp.Controllers.CustomerController.Index (SampleApp) in 29.7042ms
+2023-12-15 23:59:41.977 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:41.980 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'ApplicationDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ChangeTracker()
+   at Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerCompiledQueryCacheKeyGenerator.GenerateCacheKey(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at AspNetCore.Views_Customer_Index.ExecuteAsync() in C:\Users\ufuki\SampleApp\SampleApp\Views\Customer\Index.cshtml:line 28
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-15 23:59:41.989 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Customer - - - 500 - text/html;+charset=utf-8 50.2885ms
+2023-12-15 23:59:42.017 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/favicon.ico - -
+2023-12-15 23:59:42.021 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\favicon.ico'
+2023-12-15 23:59:42.024 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/favicon.ico - - - 200 5430 image/x-icon 6.2049ms
+2023-12-15 23:59:42.108 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Customer - -
+2023-12-15 23:59:42.110 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:42.112 +03:00 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SampleApp.Controllers.CustomerController (SampleApp).
+2023-12-15 23:59:42.115 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:59:42.117 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:59:42.145 +03:00 [INF] Executed action SampleApp.Controllers.CustomerController.Index (SampleApp) in 30.7934ms
+2023-12-15 23:59:42.148 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:42.150 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'ApplicationDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ChangeTracker()
+   at Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerCompiledQueryCacheKeyGenerator.GenerateCacheKey(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at AspNetCore.Views_Customer_Index.ExecuteAsync() in C:\Users\ufuki\SampleApp\SampleApp\Views\Customer\Index.cshtml:line 28
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-15 23:59:42.160 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Customer - - - 500 - text/html;+charset=utf-8 51.8884ms
+2023-12-15 23:59:42.192 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/favicon.ico - -
+2023-12-15 23:59:42.195 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\favicon.ico'
+2023-12-15 23:59:42.198 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/favicon.ico - - - 200 5430 image/x-icon 5.5149ms
+2023-12-15 23:59:42.268 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Customer - -
+2023-12-15 23:59:42.271 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:42.273 +03:00 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SampleApp.Controllers.CustomerController (SampleApp).
+2023-12-15 23:59:42.276 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:59:42.278 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:59:42.308 +03:00 [INF] Executed action SampleApp.Controllers.CustomerController.Index (SampleApp) in 32.4291ms
+2023-12-15 23:59:42.310 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:42.313 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'ApplicationDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ChangeTracker()
+   at Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerCompiledQueryCacheKeyGenerator.GenerateCacheKey(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at AspNetCore.Views_Customer_Index.ExecuteAsync() in C:\Users\ufuki\SampleApp\SampleApp\Views\Customer\Index.cshtml:line 28
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-15 23:59:42.322 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Customer - - - 500 - text/html;+charset=utf-8 54.3415ms
+2023-12-15 23:59:42.359 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/favicon.ico - -
+2023-12-15 23:59:42.362 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\ufuki\SampleApp\SampleApp\wwwroot\favicon.ico'
+2023-12-15 23:59:42.365 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/favicon.ico - - - 200 5430 image/x-icon 5.9217ms
+2023-12-15 23:59:42.526 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:12575/Customer - -
+2023-12-15 23:59:42.529 +03:00 [INF] Executing endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:42.531 +03:00 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SampleApp.Controllers.CustomerController (SampleApp).
+2023-12-15 23:59:42.533 +03:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 23:59:42.535 +03:00 [INF] Executing ViewResult, running view Index.
+2023-12-15 23:59:42.565 +03:00 [INF] Executed action SampleApp.Controllers.CustomerController.Index (SampleApp) in 31.9143ms
+2023-12-15 23:59:42.567 +03:00 [INF] Executed endpoint 'SampleApp.Controllers.CustomerController.Index (SampleApp)'
+2023-12-15 23:59:42.570 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'ApplicationDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ChangeTracker()
+   at Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGenerator.GenerateCacheKeyCore(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerCompiledQueryCacheKeyGenerator.GenerateCacheKey(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at AspNetCore.Views_Customer_Index.ExecuteAsync() in C:\Users\ufuki\SampleApp\SampleApp\Views\Customer\Index.cshtml:line 28
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-15 23:59:42.579 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:12575/Customer - - - 500 - text/html;+charset=utf-8 53.1767ms

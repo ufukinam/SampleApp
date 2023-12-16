@@ -9,8 +9,8 @@ namespace DataAccess.Interfaces
 {
     public interface IRepository<T> where T : class
     {
-        IQueryable<T> GetAll(Expression<Func<T, bool>> filter, params Expression<Func<T, object>>[] children);
-        T GetById(int id);
+        IEnumerable<T> GetAll(Expression<Func<T, bool>> filter, params Expression<Func<T, object>>[] children);
+        T GetById(int id, params Expression<Func<T, object>>[] children);
         void Add(T model);
         void Update(T model);
         void Delete(int id);
