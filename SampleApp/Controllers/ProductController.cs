@@ -1,5 +1,6 @@
 ﻿using Business;
 using DataAccess.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,7 @@ namespace SampleApp.Controllers
             _productService = productService;
         }
 
+        [Authorize]
         public IActionResult Index()
         {
             var products = _productService.GetAll();

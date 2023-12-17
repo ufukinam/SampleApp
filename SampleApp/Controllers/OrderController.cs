@@ -1,5 +1,6 @@
 ﻿using Business;
 using DataAccess.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using SampleApp.Models;
@@ -23,6 +24,7 @@ namespace SampleApp.Controllers
             _customerService = customerService;
         }
 
+        [Authorize]
         public IActionResult Index()
         {
             var orders =  _orderService.GetAll();

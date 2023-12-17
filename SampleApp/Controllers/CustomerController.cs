@@ -1,5 +1,6 @@
 ﻿using Business;
 using DataAccess.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 using System;
@@ -17,6 +18,7 @@ namespace SampleApp.Controllers
             _customerService = customerService;
         }
 
+        [Authorize]
         public IActionResult Index()
         {
             var customers =  _customerService.GetAll();
